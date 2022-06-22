@@ -6,7 +6,7 @@ from pydantic_serialize import version
 
 here = Path(__file__).resolve().parent
 README = (here / "README.md").read_text(encoding="utf-8")
-PACKAGE_NAME = "flask-pydantic-serialize"
+PACKAGE_NAME = "flask-pydantic-serializer"
 
 setup(
     name=PACKAGE_NAME,
@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Vivek Keshore",
     author_email="vivek.keshore@gmail.com",
-    url="https://github.com/vivekkeshore/flask-pydantic-serialize",
+    url="https://github.com/vivekkeshore/flask-pydantic-serializer",
     keywords=[
         "sqlalchemy", "alchemy", "mysql", "postgres", "flask",
         "mssql", "sql", "sqlite", "serialize", "pydantic",
