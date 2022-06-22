@@ -6,6 +6,7 @@ This comes handy if you are pydantic along with Flask, Tornado, Pyramid or any o
 A single serialize call will take of validating the returned response as well as serializing it. There are options to include or exclude certain fields or exclude/include fields with null values.
 
 [![PyPI](https://img.shields.io/pypi/v/flask-pydantic-serializer?color=g)](https://pypi.org/project/flask-pydantic-serializer/)
+![Codecov](https://img.shields.io/codecov/c/github/vivekkeshore/flask-pydantic-serializer)
 [![Python package](https://github.com/vivekkeshore/flask-pydantic-serializer/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/vivekkeshore/flask-pydantic-serializer/actions/workflows/python-package.yml)
 ![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/vivekkeshore/flask-pydantic-serializer)
 [![Coverage Status](https://coveralls.io/repos/github/vivekkeshore/flask-pydantic-serializer/badge.svg?branch=main)](https://coveralls.io/github/vivekkeshore/flask-pydantic-serializer?branch=main)
