@@ -9,7 +9,6 @@ A single serialize call will take of validating the returned response as well as
 ![Codecov](https://img.shields.io/codecov/c/github/vivekkeshore/flask-pydantic-serializer)
 [![Python package](https://github.com/vivekkeshore/flask-pydantic-serializer/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/vivekkeshore/flask-pydantic-serializer/actions/workflows/python-package.yml)
 ![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/vivekkeshore/flask-pydantic-serializer)
-[![Coverage Status](https://coveralls.io/repos/github/vivekkeshore/flask-pydantic-serializer/badge.svg?branch=main)](https://coveralls.io/github/vivekkeshore/flask-pydantic-serializer?branch=main)
 [![GitHub license](https://img.shields.io/github/license/vivekkeshore/flask-pydantic-serializer)](https://github.com/vivekkeshore/flask-pydantic-serializer/blob/main/LICENSE)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask-pydantic-serializer)
 
