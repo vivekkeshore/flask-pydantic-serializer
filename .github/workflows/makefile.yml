@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: pytest
-      run: pip install pytest
+    - name: install_requrements
+      run: pip install -r requirements.txt
       
     - name: coverage
       run: pytest && coverage html
