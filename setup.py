@@ -2,7 +2,7 @@ from pathlib import Path
 
 from setuptools import setup, find_packages
 
-from pydantic_serialize import version
+from pydantic_serializer import version
 
 here = Path(__file__).resolve().parent
 README = (here / "README.md").read_text(encoding="utf-8")

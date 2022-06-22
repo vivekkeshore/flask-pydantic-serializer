@@ -6,7 +6,7 @@ from typing import Optional
 import pytest
 from pydantic import BaseModel, Field, ValidationError, create_model
 
-from pydantic_serialize.encoders import jsonable_encoder
+from pydantic_serializer.encoders import jsonable_encoder
 
 
 class Person:

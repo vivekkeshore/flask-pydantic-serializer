@@ -133,3 +133,4 @@ htmlcov
 .vscode
 test.db
 test.db-journal
+diff

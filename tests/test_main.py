@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from pydantic.fields import ModelField
 from sqlalchemy.orm import Session
 
-from pydantic_serialize.main import get_response_field, serialize
+from pydantic_serializer.main import get_response_field, serialize
 from tests.create_test_db import get_db_engine, User
 
 USERNAMES = ["user1", "user2", "user3"]
@@ -43,7 +43,7 @@ def test_get_response_field():
         get_response_field("foo_model", [1, 2, 3])
 
 
-@mock.patch("pydantic_serialize.main.ModelField")
+@mock.patch("pydantic_serializer.main.ModelField")
 def test_get_response_field_exception(mocked_model_field):
     exception = RuntimeError("Dummy Exception")
     mocked_model_field.side_effect = exception

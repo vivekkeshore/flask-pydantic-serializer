@@ -39,20 +39,23 @@ Install with pip:
 ```
 
 ```python
-    from pydantic_serialize import serialize    
-    from typing import Optional
-    from pydantic import BaseModel
-    
-    class UserResponseModel(BaseModel):  # Define the pydantic model for serialization.
-        username: str
-        age: Optional[int] = None
-        phone: Optional[str] = None
-        
-    users = db.query(User).all()  # Multiple records. User is an example db model. Replace User with your db model.    
-    res = serialize(users, UserResponseModel, many=True)  # Pass the db records, pydantic model. Set many as True if there are multiple records.
-    
-    user = db.query(User).first()  # Single record. User is an example db model. Replace User with your db model.
-    res = serialize(user, UserResponseModel)  # Pass the db record, pydantic model. Many is set to False by default.
+from pydantic_serializer import serialize
+from typing import Optional
+from pydantic import BaseModel
+
+
+class UserResponseModel(BaseModel):  # Define the pydantic model for serialization.
+    username: str
+    age: Optional[int] = None
+    phone: Optional[str] = None
+
+
+users = db.query(User).all()  # Multiple records. User is an example db model. Replace User with your db model.    
+res = serialize(users, UserResponseModel,
+                many=True)  # Pass the db records, pydantic model. Set many as True if there are multiple records.
+
+user = db.query(User).first()  # Single record. User is an example db model. Replace User with your db model.
+res = serialize(user, UserResponseModel)  # Pass the db record, pydantic model. Many is set to False by default.
 ```
 
 Tests

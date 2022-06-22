@@ -4,7 +4,7 @@ from pydantic import BaseConfig
 from pydantic.class_validators import Validator
 from pydantic.fields import FieldInfo, ModelField, UndefinedType
 
-from pydantic_serialize.encoders import jsonable_encoder
+from pydantic_serializer.encoders import jsonable_encoder
 
 
 def get_response_field(
