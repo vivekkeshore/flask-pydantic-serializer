@@ -1,1 +1,1 @@
-include pydantic_serialize/VERSION
+include pydantic_serializer/VERSION

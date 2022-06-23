@@ -1,9 +1,9 @@
 # 🅕🅛🅐🅢🅚-🅟🅨🅓🅐🅝🅣🅘🅒-🅢🅔🅡🅘🅐🅛🅘🅩🅔🅡
 
 *Flask-Pydantic-Serializer* is a Python package that serializes the database objects using the pydantic models. 
-This comes handy if you are pydantic along with Flask, Tornado, Pyramid or any other framework.
+This comes handy if you are using pydantic models along with Flask, Tornado, Pyramid or any other framework.
 
-A single serialize call will take of validating the returned response as well as serializing it. There are options to include or exclude certain fields or exclude/include fields with null values.
+A single serialize call will take care of validating the returned response as well as serializing it. There are options to include or exclude certain fields or exclude/include fields with null values.
 
 [![PyPI](https://img.shields.io/pypi/v/flask-pydantic-serializer?color=g)](https://pypi.org/project/flask-pydantic-serializer/)
 ![Codecov](https://img.shields.io/codecov/c/github/vivekkeshore/flask-pydantic-serializer)
